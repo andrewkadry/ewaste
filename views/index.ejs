@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= title %></title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title><%= title %></title>
       <link rel="shortcut icon" href="/images/fav.png"/>
       <link rel="icon" href="/images/fav.png"/>
     <link rel='stylesheet' href='/stylesheets/style.css' />
@@ -41,8 +43,9 @@
 
   <!-- Page Content -->
   <br>
+  <div class="container">
   <div class="row">
-      <div class="column" >
+      <div class="col-6" >
           <center>
               <br><br>
           <h2 style="font-weight: 900 ;font-size: 50px">Welcome to e-collect</h2>
@@ -52,29 +55,39 @@
           </center>
       </div>
 
-      <div class="column" >
-          <img src="https://guardian.ng/wp-content/uploads/2018/07/eWaste.jpg" height="100%" width="100%">
+      <div class="col-6" >
+          <img src="https://guardian.ng/wp-content/uploads/2018/07/eWaste.jpg" height="auto" width="100%">
       </div>
 
   </div>
   <br><br><br><br><br>
   <center>
-  <div>
-      <button type="button" class="btn btn-primary btn-lg pull-right width30" onclick="location.href = '\\request'">Request</button>
-  </div>
-  </center>
-  <!-- /.container -->
-
-  <!-- Footer -->
-  <footer class="page-footer font-small blue fixed-bottom">
-
-      <!-- Copyright -->
-      <div class="footer-copyright text-center py-3">© 2019 Copyright:
-          <a href="#">AK</a>
+      <div class="row">
+          <div class="col-12">
+              <button type="button" class="btn btn-primary btn-lg pull-right width30" onclick="location.href = '\\request'">Request</button>
+          </div>
       </div>
-      <!-- Copyright -->
 
-  </footer>
+  </center>
+  </div>
+  <!-- /.container -->
+<br><br>
   <!-- Footer -->
+  <div class="row">
+      <div class="row-12">
+      <footer class="page-footer font-small blue fixed-bottom">
+
+          <!-- Copyright -->
+          <div class="footer-copyright text-center py-3">© 2019 Copyright:
+              <a href="#">AK</a>
+          </div>
+          <!-- Copyright -->
+
+      </footer>
+      <!-- Footer -->
+  </div>
+  </div>
+
+
   </body>
 </html>
